@@ -1,0 +1,105 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?tmere9');
+  src:  url('fonts/icomoon.eot?tmere9#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?tmere9') format('truetype'),
+    url('fonts/icomoon.woff?tmere9') format('woff'),
+    url('fonts/icomoon.svg?tmere9#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* important pour éviter les problèmes avec les extensions de navigateur qui modifient les polices de caractères */
+  font-family: 'icomoon' !important;
+  speak-as: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Amélioration du rendu des polices =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+/* mes icon pour mon site*/
+
+
+.icon-gitlab:before {
+  content: "\e96f";
+}
+
+.icon-twitter2:before {
+  content: "\e9e8";
+}
+
+.icon-social-twitter:before {
+  content: "\ea67";
+}
+
+.icon-social-twitter-circular:before {
+  content: "\eb2c";
+}
+
+.icon-twitter:before {
+  content: "\ed0d";
+}
+
+.icon-twitter3:before {
+  content: "\e05e";
+}
+
+.icon-mail5:before {
+  content: "\e988";
+}
+
+.icon-mail6:before {
+  content: "\ea97";
+}
+
+.icon-mail:before {
+  content: "\ecfa";
+}
+.icon-mail2:before {
+  content: "\ecfb";
+}
+.icon-mail3:before {
+  content: "\ecfc";
+}
+.icon-mail4:before {
+  content: "\ecfd";
+}
+
+.icon-mail7:before {
+  content: "\ed7b";
+}
+
+.icon-linkedin3:before {
+  content: "\e982";
+}
+
+.icon-linkedin:before {
+  content: "\ed40";
+}
+.icon-linkedin2:before {
+  content: "\ed41";
+}
+
+.icon-linkedin4:before {
+  content: "\e062";
+}
+
+.icon-map5:before {
+  content: "\e025";
+}
+
+.icon-phone4:before {
+  content: "\e004";
+}
+
+.icon-envelope2:before {
+  content: "\e028";
+}
